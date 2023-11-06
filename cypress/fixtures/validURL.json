@@ -1,0 +1,8 @@
+{
+    "homePageUrl": "https://demo.realworld.io/#/",
+    "loginPageUrl": "https://demo.realworld.io/#/login",
+    "registerPageUrl": "https://demo.realworld.io/#/register",
+    "settingsPageUrl": "https://demo.realworld.io/#/settings",
+    "accountPageUrl": "https://demo.realworld.io/#/@WBrchk",
+    "newArticlePageUrl": "https://demo.realworld.io/#/editor/"
+}
