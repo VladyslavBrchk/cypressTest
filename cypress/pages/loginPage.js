@@ -1,6 +1,5 @@
 class LoginPage {
 
-
     elements = {
         usernameField: () => cy.get(':nth-child(1) > .form-control'),
         emailField: () => cy.get(':nth-child(2) > .form-control'),
@@ -21,9 +20,7 @@ class LoginPage {
         this.elements.passwordField().type(password);
         this.elements.loginBtn().click();
     }
-
 }
-
 
 module.exports = new LoginPage();
 

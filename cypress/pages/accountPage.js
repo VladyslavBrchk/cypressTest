@@ -1,11 +1,9 @@
 class AccountPage {
 
-
     elements = {
         description: () => cy.get('[ng-bind="::$ctrl.profile.bio"]'),
         myArticlesBtn: () => cy.get('.articles-toggle > .nav > :nth-child(1) > .nav-link'),
         favoriteArticlesBtn: () => cy.get('.articles-toggle > .nav > :nth-child(2) > .nav-link')
-
     }
 
     clickOnMyArticles() {
@@ -24,9 +22,7 @@ class AccountPage {
     favoriteArticlesAmount() {
         return cy.get('.article-preview>a').its('length');
     }
-
 }
-
 
 module.exports = new AccountPage();
 

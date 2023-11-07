@@ -1,7 +1,4 @@
-const { th } = require("@faker-js/faker");
-
 class MyArticlePage {
-
 
     elements = {
         titleField: () => cy.get(':nth-child(1) > .form-control'),
@@ -11,7 +8,6 @@ class MyArticlePage {
         publishArticleBtn: () => cy.get('[type="button"]'),
         articleTitle: () => cy.get('[ng-bind="$ctrl.article.title"]'),
         deleteArticleBtn: () => cy.get('div[class="container"]>article-actions>article-meta>div>ng-transclude>span>[ng-click="$ctrl.deleteArticle()"]')
-
     }
 
     articleTitleText(index) {
@@ -38,7 +34,6 @@ class MyArticlePage {
         cy.wait(2000);
     }
 }
-
 
 module.exports = new MyArticlePage();
 

@@ -1,4 +1,5 @@
 class HomePage {
+
     elements = {
         homeBtn: () => cy.get('.nav-link[ui-sref="app.home"]'),
         signInBtn: () => cy.get('.nav-link[ui-sref="app.login"]'),
@@ -51,7 +52,6 @@ class HomePage {
     userAccountNameText() {
         this.elements.userAccountName().invoke('text');
     }
-
 }
 
 module.exports = new HomePage();
