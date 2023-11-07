@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "cypress-report": "npx cypress run --record --key bf0a65fd-ae33-487b-8e88-c2d6505af073"
   },
   "keywords": [],
   "author": "",
