@@ -1,5 +1,4 @@
 class AccountPage {
-
     elements = {
         description: () => cy.get('[ng-bind="::$ctrl.profile.bio"]'),
         myArticlesBtn: () => cy.get('.articles-toggle > .nav > :nth-child(1) > .nav-link'),

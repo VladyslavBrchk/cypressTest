@@ -1,5 +1,4 @@
 class LoginPage {
-
     elements = {
         usernameField: () => cy.get(':nth-child(1) > .form-control'),
         emailField: () => cy.get(':nth-child(2) > .form-control'),

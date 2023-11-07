@@ -1,5 +1,4 @@
 class HomePage {
-
     elements = {
         homeBtn: () => cy.get('.nav-link[ui-sref="app.home"]'),
         signInBtn: () => cy.get('.nav-link[ui-sref="app.login"]'),

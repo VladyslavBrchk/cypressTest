@@ -1,5 +1,4 @@
 class GlobalArticlePage {
-
     elements = {
         commentField: () => cy.get('.card-block>textarea'),
         favoriteBtn: () => cy.get('div[class="container"]>article-actions>article-meta>div>ng-transclude>span>favorite-btn[article="$ctrl.article"]'),

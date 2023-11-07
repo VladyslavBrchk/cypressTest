@@ -3,10 +3,8 @@ import LoginPage from '../../pages/loginPage';
 import MyArticlePage from '../../pages/myArticlePage';
 import { faker } from '@faker-js/faker';
 
-
 const validData = require('../../fixtures/validData.json');
 const validURL = require('../../fixtures/validURL.json');
-
 
 const randomTitle = faker.lorem.lines(1);
 const randomAbout = faker.lorem.sentence();

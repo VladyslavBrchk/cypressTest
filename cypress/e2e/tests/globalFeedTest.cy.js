@@ -21,7 +21,6 @@ describe('Global Feed Testing', () => {
         HomePage.clickOnFeedItem(0);
         GlobalArticlePage.favoriteBtnNum().then((currentLikes) => {
             initialLikes = parseInt(currentLikes, 10);
-            cy.log(initialLikes);
         });
         GlobalArticlePage.clickLike();
         cy.wait(3000);

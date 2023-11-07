@@ -8,7 +8,6 @@ const validURL = require('../../fixtures/validURL.json');
 const randomRegName = faker.internet.userName();
 const randomRegPassword = faker.internet.password();
 const randomRegEmail = faker.internet.email();
-
 const randomLogPassword = faker.internet.password();
 const randomLogEmail = faker.internet.email();
 

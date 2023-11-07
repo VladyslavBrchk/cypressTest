@@ -1,5 +1,4 @@
 class SettingsPage {
-
     elements = {
         descriptionField: () => cy.get(':nth-child(3) > .form-control'),
         applyBtn: () => cy.get('[type="submit"]'),

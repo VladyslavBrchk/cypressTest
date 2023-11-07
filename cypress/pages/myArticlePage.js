@@ -1,5 +1,4 @@
 class MyArticlePage {
-
     elements = {
         titleField: () => cy.get(':nth-child(1) > .form-control'),
         aboutField: () => cy.get(':nth-child(2) > .form-control'),
